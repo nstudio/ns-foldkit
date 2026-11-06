@@ -1,0 +1,107 @@
+.page {
+  padding: 16;
+  background-color: #f4f4f5;
+}
+
+.title {
+  font-size: 28;
+  font-weight: bold;
+  color: #18181b;
+  margin-top: 8;
+}
+
+.subtitle {
+  font-size: 15;
+  color: #52525b;
+  margin-bottom: 8;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16;
+  padding: 16;
+  margin-top: 12;
+}
+
+.h2 {
+  font-size: 13;
+  font-weight: bold;
+  color: #71717a;
+  text-transform: uppercase;
+  letter-spacing: 0.05;
+}
+
+.count,
+.time {
+  font-size: 56;
+  font-weight: bold;
+  color: #18181b;
+  text-align: center;
+  margin: 8 0;
+}
+
+.time {
+  font-family: monospace;
+  font-size: 44;
+}
+
+.row {
+  orientation: horizontal;
+  horizontal-align: center;
+}
+
+.btn {
+  background-color: #18181b;
+  color: #ffffff;
+  font-size: 17;
+  font-weight: bold;
+  border-radius: 10;
+  padding: 10 20;
+  margin: 4;
+}
+
+.btn-muted {
+  background-color: #a1a1aa;
+}
+
+.btn-go {
+  background-color: #16a34a;
+}
+
+.btn-stop {
+  background-color: #dc2626;
+}
+
+.input {
+  font-size: 17;
+  padding: 10 12;
+  margin: 8 0;
+  border-width: 1;
+  border-color: #d4d4d8;
+  border-radius: 10;
+}
+
+.todo {
+  padding: 8 0;
+  border-bottom-width: 1;
+  border-bottom-color: #f4f4f5;
+}
+
+.todo-title {
+  font-size: 17;
+  color: #18181b;
+  margin: 0 10;
+  vertical-align: middle;
+}
+
+.todo-title.done {
+  color: #a1a1aa;
+  text-decoration: line-through;
+}
+
+.delete {
+  font-size: 18;
+  color: #a1a1aa;
+  padding: 4 8;
+  vertical-align: middle;
+}
